@@ -1,0 +1,12 @@
+USE task_mysql;
+
+
+UPDATE Task2 set name="Parama" where name="dharshini";
+UPDATE Task2 set mark=56 where name="sam";
+SELECT * FROM Task2;
+
+SELECT * FROM Task2 where mark<60;
+SELECT name,dept,sec FROM Task2;
+
+
+

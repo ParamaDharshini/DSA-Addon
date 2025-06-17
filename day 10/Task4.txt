@@ -1,0 +1,20 @@
+use task_mysql;
+
+ALTER TABLE task2 ADD gender varchar(20);
+UPDATE task2 set gender="F" where name="Parama";
+UPDATE task2 set gender="F" where name="Monica";
+UPDATE task2 set gender="M" where name="Arjun";
+UPDATE task2 set gender="M" where name="Karthi";
+UPDATE task2 set gender="M" where name="Sam";
+
+ALTER TABLE task2 DROP COLUMN sec;
+
+
+
+TRUNCATE TABLE task2;
+
+DROP DATABASE task_mysql;
+
+SELECT * FROM task2;
+
+

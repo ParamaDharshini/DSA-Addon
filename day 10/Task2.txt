@@ -1,0 +1,10 @@
+USE task_mysql;
+CREATE TABLE Task2(name varchar(20),mark int,dept varchar(25),sec char(1));
+
+INSERT INTO Task2 values
+("Arjun",89,"IT","A"),
+("Dharshini",95,"CT","A"),
+("Karthi",67,"BCA","C"),
+("Monica",78,"CT","B"),
+("Sam",95,"CS","B");
+SELECT * FROM Task2;
